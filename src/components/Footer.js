@@ -16,7 +16,7 @@ function Footer() {
         <TwitterIcon />
         <FacebookIcon />
       </div>
-      <p> &copy; 2023 asifiqbal.com</p>
+      <p> &copy; {new Date().getFullYear()} asifiqbal.com</p>
     </div>
   );
 }
